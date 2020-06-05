@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontact</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Kontact</h1>
+        <h4>An easy way to handle your contacts</h4>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form id="search-form">
+                <input type="search" name="search" id="search" placeholder="Search contacts">
+            </form>
+            <form id="contact-form">
+                    <input type="text" name="firstName" id="firstName" placeholder="Firstname">
+                   <input type="text" name="lastName" id="lastName" placeholder="Lastname">
+                   <input type="tel" name="phoneNo" id="phoneNo" placeholder="Contact No">
+                   <input type="text" name="location" id="location" placeholder="Location">
+                   <input class="button" type="submit" value="Add Contact">
+            </form>
+        </div>
+        
+        <div class="contact-list">
+            <h3>List of contacts</h3>
+            <div class="display-contact"></div>
+            
+        </div>
+        <div class="display-contact"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
