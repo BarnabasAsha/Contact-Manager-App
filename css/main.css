@@ -160,9 +160,14 @@ input {
     .contact-list {
         justify-content: flex-start;
         align-items: center;
-        height: 250px;
+        height: 200px;
         width: 100%;
         padding-top: 1em;
+    }
+
+    .contact-row {
+        width: 250px;
+        font-size: 1rem;
     }
 
     
