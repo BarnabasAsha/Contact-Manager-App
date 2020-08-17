@@ -22,7 +22,7 @@ class Operations {
         const contactList = document.querySelector('.contact-list');
         const contactRow = document.createElement('details');
         contactRow.innerHTML = `
-        <summary><span><span></span><img src="pics.svg"> ${cont.firstName} ${cont.lastName}</span> <span>Toggle</span></summary>
+        <summary><img src="pics.svg"> <span>${cont.firstName} ${cont.lastName}</span></summary>
         <p class="telNo">${cont.phoneNo}</p>
         <p>${cont.location}</p>
         <button id="delete">Delete</button>
