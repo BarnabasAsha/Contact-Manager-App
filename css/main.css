@@ -143,7 +143,7 @@ input {
 @media screen and (max-width: 600px) {
     .container {
         flex-direction: column;
-        width: 90%;
+        width: 95%;
         height: auto;
         justify-content: center;
         align-items: center;
